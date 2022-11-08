@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9322" started-at="2022-11-07T21:24:03 IST" finished-at="2022-11-07T21:24:12 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9322" started-at="2022-11-07T21:24:03 IST" finished-at="2022-11-07T21:24:12 IST">
+      <class name="TestCases.HomePage">
+        <test-method status="PASS" signature="OpenBroswer()[pri:0, instance:TestCases.HomePage@4b1c1ea0]" name="OpenBroswer" is-config="true" duration-ms="20863" started-at="2022-11-07T21:23:42 IST" finished-at="2022-11-07T21:24:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBroswer -->
+        <test-method status="PASS" signature="clickOnCartButton()[pri:0, instance:TestCases.HomePage@4b1c1ea0]" name="clickOnCartButton" duration-ms="9263" started-at="2022-11-07T21:24:03 IST" finished-at="2022-11-07T21:24:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCartButton -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:TestCases.HomePage@4b1c1ea0]" name="CloseBrowser" is-config="true" duration-ms="183" started-at="2022-11-07T21:24:12 IST" finished-at="2022-11-07T21:24:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- TestCases.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
