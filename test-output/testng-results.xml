@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="9322" started-at="2022-11-07T21:24:03 IST" finished-at="2022-11-07T21:24:12 IST">
+  <suite name="Suite" duration-ms="120" started-at="2022-11-08T21:31:03 IST" finished-at="2022-11-08T21:31:03 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="9322" started-at="2022-11-07T21:24:03 IST" finished-at="2022-11-07T21:24:12 IST">
-      <class name="TestCases.HomePage">
-        <test-method status="PASS" signature="OpenBroswer()[pri:0, instance:TestCases.HomePage@4b1c1ea0]" name="OpenBroswer" is-config="true" duration-ms="20863" started-at="2022-11-07T21:23:42 IST" finished-at="2022-11-07T21:24:03 IST">
+    <test name="Test" duration-ms="120" started-at="2022-11-08T21:31:03 IST" finished-at="2022-11-08T21:31:03 IST">
+      <class name="TestCases.Testcase1">
+        <test-method status="PASS" signature="OpenBroswer()[pri:0, instance:TestCases.Testcase1@2d8f65a4]" name="OpenBroswer" is-config="true" duration-ms="9941" started-at="2022-11-08T21:30:53 IST" finished-at="2022-11-08T21:31:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBroswer -->
-        <test-method status="PASS" signature="clickOnCartButton()[pri:0, instance:TestCases.HomePage@4b1c1ea0]" name="clickOnCartButton" duration-ms="9263" started-at="2022-11-07T21:24:03 IST" finished-at="2022-11-07T21:24:12 IST">
+        <test-method status="PASS" signature="usecase_of_groups3()[pri:0, instance:TestCases.Testcase1@2d8f65a4]" name="usecase_of_groups3" duration-ms="11" started-at="2022-11-08T21:31:03 IST" finished-at="2022-11-08T21:31:03 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickOnCartButton -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:TestCases.HomePage@4b1c1ea0]" name="CloseBrowser" is-config="true" duration-ms="183" started-at="2022-11-07T21:24:12 IST" finished-at="2022-11-07T21:24:13 IST">
+        </test-method> <!-- usecase_of_groups3 -->
+        <test-method status="PASS" signature="usecase_of_groups4()[pri:0, instance:TestCases.Testcase1@2d8f65a4]" name="usecase_of_groups4" duration-ms="8" started-at="2022-11-08T21:31:03 IST" finished-at="2022-11-08T21:31:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usecase_of_groups4 -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:TestCases.Testcase1@2d8f65a4]" name="CloseBrowser" is-config="true" duration-ms="369" started-at="2022-11-08T21:31:03 IST" finished-at="2022-11-08T21:31:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-      </class> <!-- TestCases.HomePage -->
+      </class> <!-- TestCases.Testcase1 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

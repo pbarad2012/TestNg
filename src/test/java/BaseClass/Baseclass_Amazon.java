@@ -14,6 +14,7 @@ public class Baseclass_Amazon {
 	    driver=new ChromeDriver();  
 	    // Launch website  
 	    driver.get("https://www.amazon.in/"); 
+	    driver.manage().window().maximize();
 		
 	}
 	
