@@ -11,7 +11,7 @@ import PageObjects.AmazonHomepageLocators;
 import PageObjects.CartPageLocators;
 import Utilities.DataproviderClass;
 
-//@Listeners(Utilities.Listener.class)  
+@Listeners(Utilities.Listener.class)  
 public class HomePage extends Baseclass_Amazon{
 	
 	

@@ -26,7 +26,7 @@ public class Testcase1 extends Baseclass_Amazon{
 	
 	@Test(groups={"Integration"})
 	public void usecase_of_groups() {
-		
+		System.out.println(System.getProperty("user.dir"));
 		
 	}
 	
