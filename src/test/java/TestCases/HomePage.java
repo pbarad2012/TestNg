@@ -21,7 +21,6 @@ public class HomePage extends Baseclass_Amazon{
 		AmazonHomepageLocators  amazonhomepage = PageFactory.initElements(driver, AmazonHomepageLocators.class);
 		Select test_select = new Select(amazonhomepage.search_list_id);
 	    test_select.selectByVisibleText(option);
-		
 	}
 	
 //	@Test(groups= {"SmokeTest"})  
@@ -38,7 +37,7 @@ public class HomePage extends Baseclass_Amazon{
 //		cart.go_to_fresh_cart_button.click();
 //		
 //	}
-//	
+	
 //	@Test(dataProvider="SearchProvider",dataProviderClass=DataproviderClass.class)  
 //	public void Test3(String id,String name ) {
 //		System.out.println(name);

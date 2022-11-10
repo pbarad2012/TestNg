@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="1310" started-at="2022-11-09T21:29:51 IST" finished-at="2022-11-09T21:29:53 IST">
+  <suite name="Suite" duration-ms="1471" started-at="2022-11-10T21:06:33 IST" finished-at="2022-11-10T21:06:35 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="1310" started-at="2022-11-09T21:29:51 IST" finished-at="2022-11-09T21:29:53 IST">
+    <test name="Test" duration-ms="1471" started-at="2022-11-10T21:06:33 IST" finished-at="2022-11-10T21:06:35 IST">
       <class name="TestCases.HomePage">
-        <test-method status="PASS" signature="OpenBroswer()[pri:0, instance:TestCases.HomePage@2d8f65a4]" name="OpenBroswer" is-config="true" duration-ms="8716" started-at="2022-11-09T21:29:43 IST" finished-at="2022-11-09T21:29:51 IST">
+        <test-method status="PASS" signature="OpenBroswer()[pri:0, instance:TestCases.HomePage@1877ab81]" name="OpenBroswer" is-config="true" duration-ms="8317" started-at="2022-11-10T21:06:25 IST" finished-at="2022-11-10T21:06:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBroswer -->
-        <test-method status="FAIL" signature="SelectFromSearchDropdown(java.lang.String)[pri:0, instance:TestCases.HomePage@2d8f65a4]" name="SelectFromSearchDropdown" duration-ms="525" started-at="2022-11-09T21:29:51 IST" finished-at="2022-11-09T21:29:52 IST">
+        <test-method status="FAIL" signature="SelectFromSearchDropdown(java.lang.String)[pri:0, instance:TestCases.HomePage@1877ab81]" name="SelectFromSearchDropdown" duration-ms="758" started-at="2022-11-10T21:06:34 IST" finished-at="2022-11-10T21:06:34 IST">
           <params>
             <param index="0">
               <value>
@@ -22,25 +22,25 @@
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#searchDropdownBox123"}
-  (Session info: chrome=107.0.5304.88)
+  (Session info: chrome=107.0.5304.106)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.5.2', revision: '702c64f787c'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d2b5bba832d6b3cfabdda970b1ba6ae3, findElement {using=id, value=searchDropdownBox123}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54243}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54243/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d2b5bba832d6b3cfabdda970b1ba6ae3]]>
+Command: [2831578d32efa11bd7d283d84041240b, findElement {using=id, value=searchDropdownBox123}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.106, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61632/devtoo..., se:cdpVersion: 107.0.5304.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2831578d32efa11bd7d283d84041240b]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#searchDropdownBox123"}
-  (Session info: chrome=107.0.5304.88)
+  (Session info: chrome=107.0.5304.106)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.5.2', revision: '702c64f787c'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d2b5bba832d6b3cfabdda970b1ba6ae3, findElement {using=id, value=searchDropdownBox123}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54243}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54243/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d2b5bba832d6b3cfabdda970b1ba6ae3
+Command: [2831578d32efa11bd7d283d84041240b, findElement {using=id, value=searchDropdownBox123}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.106, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61632/devtoo..., se:cdpVersion: 107.0.5304.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2831578d32efa11bd7d283d84041240b
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -95,7 +95,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectFromSearchDropdown -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:TestCases.HomePage@2d8f65a4]" name="CloseBrowser" is-config="true" duration-ms="272" started-at="2022-11-09T21:29:53 IST" finished-at="2022-11-09T21:29:53 IST">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:TestCases.HomePage@1877ab81]" name="CloseBrowser" is-config="true" duration-ms="303" started-at="2022-11-10T21:06:36 IST" finished-at="2022-11-10T21:06:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->

@@ -15,7 +15,7 @@ public class Baseclass_Amazon {
 	
 	@BeforeSuite
 	public void OpenBroswer() throws IOException {
-	    System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\Resources\\Driver\\chromedriver.exe");  
+	    System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\Resources\\Driver\\chromedriver1.exe");  
 	    driver=new ChromeDriver();  
 	    // Launch website  
 	    FileInputStream fileread = new FileInputStream(System.getProperty("user.dir") + "\\Resources\\TestData\\FileData.properties");
